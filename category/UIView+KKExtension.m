@@ -1,7 +1,7 @@
 
-#import "UIView+Extension.h"
+#import "UIView+KKExtension.h"
 
-@implementation UIView (Extension)
+@implementation UIView (KKExtension)
 
 - (void)setSize:(CGSize)size
 {

@@ -1,7 +1,7 @@
 
-#import "UIBarButtonItem+Extension.h"
+#import "UIBarButtonItem+KKExtension.h"
 
-@implementation UIBarButtonItem (Extension)
+@implementation UIBarButtonItem (KKExtension)
 + (instancetype)itemWithImage:(NSString *)image highImage:(NSString *)highImage target:(id)target action:(SEL)action
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
